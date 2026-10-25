@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+client/dist/
+.env
+.env.*
+!.env.example
+server/placement_database.json
+sample_students.csv
+*.log

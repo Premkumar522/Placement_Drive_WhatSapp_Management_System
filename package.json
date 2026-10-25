@@ -1,0 +1,19 @@
+{
+  "name": "placement-drive-whatsapp-manager",
+  "version": "1.0.0",
+  "description": "Placement Drive WhatsApp Group Management System with Automated Invitation & OTP Verification",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
